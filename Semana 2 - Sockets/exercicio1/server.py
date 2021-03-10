@@ -83,6 +83,7 @@ while True:
         elif request.lower() in ["good morning", "good afternoon", "good night"]:
             now = datetime.now()
             now = now.hour
+            print(f"Current hour {now}")
             morning = now in range(6,11)
             afternoon = now in range(12,18)
             night = now in range(19,23) or now in range(1,5)
