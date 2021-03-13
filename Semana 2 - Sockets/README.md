@@ -3,6 +3,7 @@
 ## Table of Contents
 * [Integrantes](#integrantes)
 * [Exercício 1](#exercício-1)
+* [Exercício 2](#exercício-2)
 
 ## Integrantes
 | Name           | R.A.           |
@@ -60,3 +61,51 @@ Finish connection with server
 
 ![exit](Images/ex1Exit.PNG)
 
+
+## Exercício 2
+
+### Run Server
+```terminal
+python server.py
+```
+### Run Client
+```terminal
+python client.py
+```
+
+### Command
+
+* [Make math operation plus](#commandOperationPlus)
+* [Make math operation minus](#commandOperationMinus)
+* [Make math operation divide](#commandOperationDivide)
+* [Make math operation multiply](#commandOperationMultiply)
+
+### First Access
+
+In the first access the server will send to you a welcome message
+
+![first-access](Images/ex2FirstAccess.PNG)
+
+### Make math operation plus
+
+Ask to the two numbers and the number code of operation, in this case the first operation
+
+![commandOperationPlus](Images/ex2CommandsPlus.png)
+
+### Make math operation minus
+
+Ask to the two numbers and the number code of operation, in this case the second operation
+
+![commandOperationMinus](Images/ex2CommandsMinus.png)
+
+### Make math operation divide
+
+Ask to the two numbers and the number code of operation, in this case the third operation
+
+![commandOperationDivide](Images/ex2CommandsDivide.png)
+
+### Make math operation multiply
+
+Ask to the two numbers and the number code of operation, in this case the fourth operation
+
+![commandOperationMultiply](Images/ex2CommandsMultiply.png)
