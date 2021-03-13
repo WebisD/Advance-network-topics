@@ -31,18 +31,23 @@ while True:
 
         if not request: 
             break
-        
         else:
             if len(request) >= 3:
                 numbers = request.split(' ')
-                firstNumber = (float(numbers[0]))
-                secondNumber = (float(numbers[1]))
-                message = ("Ok, you want to make some operation with %d and %d \n Now, insert the operation\n" %( firstNumber, secondNumber))
-                connectionSocket.send(message.encode())
+                try:
+                    firstNumber = (float(numbers[0]))
+                    secondNumber = (float(numbers[1]))
+                except:
+                     message = ("Ok, you want to make some operation with invalid numbers...\nVery funny man" )
+                     connectionSocket.send(message.encode())
+                     break
+                else:
+                    message = ("Ok, you want to make some operation with %d and %d \n Now, insert the operation\n" %( firstNumber, secondNumber))
+                    connectionSocket.send(message.encode())
+                
             elif len(request) == 1:
                 connectionSocket.send(createResult(firstNumber, request, secondNumber))
                 break
-
     connectionSocket.close()
 
 

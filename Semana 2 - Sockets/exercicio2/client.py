@@ -19,4 +19,7 @@ while True:
     elif message.find("the result") != -1:
         print(message)
         break
+    elif message.find("very funny man") != -1:
+        print(message)
+        break
 clienteSocket.close()
