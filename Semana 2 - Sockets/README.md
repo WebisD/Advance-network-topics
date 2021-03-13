@@ -84,7 +84,7 @@ python client.py
 
 In the first access the server will send to you a welcome message
 
-![first-access](Images/ex2FirstAccess.PNG)
+![first-access](Images/ex2FirstAccess.png)
 
 ### Make math operation plus
 

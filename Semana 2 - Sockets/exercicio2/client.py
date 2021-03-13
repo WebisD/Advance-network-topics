@@ -16,7 +16,6 @@ while True:
         print(message)
         operation = str(input("Available operations \n 1 - Plus\n 2 - Minus\n 3 - Divide\n 4 - Multiplication\nInsert the number of operation > "))
         clienteSocket.send(operation.encode())
-        print(operation.encode())
     elif message.find("the result") != -1:
         print(message)
         break
