@@ -24,10 +24,14 @@ def createResult(firstNumber, request, secondNumber):
 
 while True:
     connectionSocket, addr = serverSocket.accept()
+    print(50*'-')
+    print("Cliente {} conectado ao servidor".format(addr))
+
     connectionSocket.send( ("Hey man, How are you? \nI'm here to solve math questions. \nPlease insert two numbers!\n").encode() )
 
     while True:
         request = connectionSocket.recv(1024).decode()
+        print("RECEIVE MSG >>>> " + request)
 
         if not request: 
             break
@@ -38,9 +42,9 @@ while True:
                     firstNumber = (float(numbers[0]))
                     secondNumber = (float(numbers[1]))
                 except:
-                     message = ("Ok, you want to make some operation with invalid numbers...\nVery funny man" )
-                     connectionSocket.send(message.encode())
-                     break
+                    print("invalid operation...")
+                    connectionSocket.send(("Ok, you want to make some operation with invalid numbers...\nVery funny man" ).encode())
+                    break
                 else:
                     message = ("Ok, you want to make some operation with %d and %d \n Now, insert the operation\n" %( firstNumber, secondNumber))
                     connectionSocket.send(message.encode())
@@ -48,6 +52,7 @@ while True:
             elif len(request) == 1:
                 connectionSocket.send(createResult(firstNumber, request, secondNumber))
                 break
+    print("close connection...")
     connectionSocket.close()
 
 

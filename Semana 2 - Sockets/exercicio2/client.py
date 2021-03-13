@@ -6,6 +6,7 @@ clienteSocket.connect((serverName, serverPort))
 
 while True:
     message = clienteSocket.recv(1024).decode()
+    print("RECEIVE MSG >>>> ")
 
     if message.find("Please insert two numbers!") != -1:
         print(message)
@@ -19,7 +20,7 @@ while True:
     elif message.find("the result") != -1:
         print(message)
         break
-    elif message.find("very funny man") != -1:
+    else:
         print(message)
         break
 clienteSocket.close()
