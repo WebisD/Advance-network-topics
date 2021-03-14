@@ -34,31 +34,31 @@ python client.py
 
 ### First Access
 
-In the first access the J.A.W ask you a name to call you the next time you connect
+In a client's first access the J.A.W asks for the client's name, so it can store it and know what to call this client the next time he/she connects to the server.
 
 ![first-access](Images/ex1FirstAccess.PNG)
 
 ### Commands
 
-List all commands available in server
+List all commands available in the server.
 
 ![commands](Images/ex1Commands.PNG)
 
 ### Time
 
-Show the current time in server
+Shows the current time in the server.
 
 ![time](Images/ex1Time.PNG)
 
 ### Good Morning, Good Afternoon, Good Night
 
-Answer your greeting and correct it if it's not the correct time
+The J.A.W answers your greeting and corrects it if it's not appropriate for the current time.
 
 ![greeting](Images/ex1Greeting.PNG)
 
 ### Exit
 
-Finish connection with server
+Ends connection with the server.
 
 ![exit](Images/ex1Exit.PNG)
 
@@ -88,31 +88,31 @@ python client.py
 
 ### First Access
 
-In the first access the server will send to you a welcome message
+In the first access the server will send the client a welcoming message
 
 ![first-access](Images/ex2FirstAccess.png)
 
 ### Make math operation plus
 
-Ask to the two numbers and the number code of operation, in this case the first operation
+Asks the client for the two numbers and the code of the oeration, in this case the first operation.
 
 ![commandOperationPlus](Images/ex2CommandsPlus.png)
 
 ### Make math operation minus
 
-Ask to the two numbers and the number code of operation, in this case the second operation
+Asks the client for the two numbers and the code of the oeration, in this case the second operation
 
 ![commandOperationMinus](Images/ex2CommandsMinus.png)
 
 ### Make math operation divide
 
-Ask to the two numbers and the number code of operation, in this case the third operation
+Asks the client for the two numbers and the code of the oeration, in this case the third operation
 
 ![commandOperationDivide](Images/ex2CommandsDivide.png)
 
 ### Make math operation multiply
 
-Ask to the two numbers and the number code of operation, in this case the fourth operation
+Asks the client for the two numbers and the code of the oeration, in this case the fourth operation
 
 ![commandOperationMultiply](Images/ex2CommandsMultiply.png)
 
@@ -142,7 +142,7 @@ python client.py
 
 ### First Access
 
-In the first access the J.A.W ask you a name to call you the next time you connect:
+In a client's first access the J.A.W asks for the client's name, so it can store it and know what to call this client the next time he/she connects to the server.
 
 #### Linux
 ![first-access](Images/ex3_linux_FirstAccess.PNG)
@@ -152,7 +152,7 @@ In the first access the J.A.W ask you a name to call you the next time you conne
 
 ### Commands
 
-List all commands available in server
+List all commands available in the server.
 
 #### Linux
 ![command](Images/ex3_linux_Commands.PNG)
@@ -162,7 +162,7 @@ List all commands available in server
 
 ### Time
 
-Show the current time in server
+Shows the current time in the server.
 
 #### Linux
 ![time](Images/ex3_linux_Time.PNG)
@@ -172,7 +172,7 @@ Show the current time in server
 
 ### Good Morning, Good Afternoon, Good Night
 
-Answer your greeting and correct it if it's not the correct time
+The J.A.W answers your greeting and corrects it if it's not appropriate for the current time.
 
 #### Linux
 ![greeting](Images/ex3_linux_Greeting.PNG)
@@ -182,7 +182,7 @@ Answer your greeting and correct it if it's not the correct time
 
 ### Exit
 
-Finish connection with server
+Ends connection with the server.
 
 #### Linux
 ![exit](Images/ex3_linux_Exit.PNG)
