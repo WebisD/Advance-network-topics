@@ -28,7 +28,7 @@ python client.py
 
 * [COMMANDS](#commands)
 * [TIME](#time)
-* [Good Morning, Good Afternoon, Good Night](#good-morning,-good-afternoon,-good-night)
+* [Good Morning, Good Afternoon, Good Night](#good-morning-good-afternoon-good-night)
 * [EXIT](#exit)
 
 ### First Access
