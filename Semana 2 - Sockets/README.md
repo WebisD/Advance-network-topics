@@ -76,10 +76,10 @@ python client.py
 
 ### Command
 
-* [Make math operation plus](#commandOperationPlus)
-* [Make math operation minus](#commandOperationMinus)
-* [Make math operation divide](#commandOperationDivide)
-* [Make math operation multiply](#commandOperationMultiply)
+* [Make math operation plus](#make-math-operation-plus)
+* [Make math operation minus](#make-math-operation-minus)
+* [Make math operation divide](#make-math-operation-divide)
+* [Make math operation multiply](#make-math-operation-multipy)
 
 ### First Access
 
