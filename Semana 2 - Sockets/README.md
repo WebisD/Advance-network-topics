@@ -63,6 +63,11 @@ Finish connection with server
 ![exit](Images/ex1Exit.PNG)
 
 
+<p align="center">
+  <br/></br><a href="#semana-2---sockets">⬆⬆⬆VOLTAR PARA O TOPO⬆⬆⬆</a><br/><br/><br/>
+</p>
+
+
 ## Exercício 2
 
 ### Run Server
@@ -79,7 +84,7 @@ python client.py
 * [Make math operation plus](#make-math-operation-plus)
 * [Make math operation minus](#make-math-operation-minus)
 * [Make math operation divide](#make-math-operation-divide)
-* [Make math operation multiply](#make-math-operation-multipy)
+* [Make math operation multiply](#make-math-operation-multiply)
 
 ### First Access
 
@@ -110,6 +115,11 @@ Ask to the two numbers and the number code of operation, in this case the third 
 Ask to the two numbers and the number code of operation, in this case the fourth operation
 
 ![commandOperationMultiply](Images/ex2CommandsMultiply.png)
+
+
+<p align="center">
+  <br/></br><a href="#semana-2---sockets">⬆⬆⬆VOLTAR PARA O TOPO⬆⬆⬆</a><br/><br/><br/>
+</p>
 
 
 ## Exercício 3
@@ -179,3 +189,8 @@ Finish connection with server
 
 #### Windows
 ![exit](Images/ex3_windows_Exit.PNG)
+
+
+<p align="center">
+  <br/></br><a href="#semana-2---sockets">⬆⬆⬆VOLTAR PARA O TOPO⬆⬆⬆</a><br/><br/><br/>
+</p>
