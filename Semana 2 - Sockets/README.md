@@ -4,6 +4,7 @@
 * [Integrantes](#integrantes)
 * [Exercício 1](#exercício-1)
 * [Exercício 2](#exercício-2)
+* [Exercício 3](#exercício-3)
 
 ## Integrantes
 | Name           | R.A.           |
@@ -109,3 +110,72 @@ Ask to the two numbers and the number code of operation, in this case the third 
 Ask to the two numbers and the number code of operation, in this case the fourth operation
 
 ![commandOperationMultiply](Images/ex2CommandsMultiply.png)
+
+
+## Exercício 3
+
+### Run Server
+```terminal
+python server.py
+```
+### Run Client
+```terminal
+python client.py
+```
+
+### Available Commands (without case-sensitive)
+
+* [COMMANDS](#commands-1)
+* [TIME](#time-1)
+* [Good Morning, Good Afternoon, Good Night](#good-morning-good-afternoon-good-night-1)
+* [EXIT](#exit-1)
+
+### First Access
+
+In the first access the J.A.W ask you a name to call you the next time you connect:
+
+#### Linux
+![first-access](Images/ex3_linux_FirstAccess.PNG)
+
+#### Windows
+![first-access](Images/ex3_windows_FirstAccess.PNG)
+
+### Commands
+
+List all commands available in server
+
+#### Linux
+![command](Images/ex3_linux_Commands.PNG)
+
+#### Windows
+![command](Images/ex3_windows_Commands.PNG)
+
+### Time
+
+Show the current time in server
+
+#### Linux
+![time](Images/ex3_linux_Time.PNG)
+
+#### Windows
+![time](Images/ex3_windows_Time.PNG)
+
+### Good Morning, Good Afternoon, Good Night
+
+Answer your greeting and correct it if it's not the correct time
+
+#### Linux
+![greeting](Images/ex3_linux_Greeting.PNG)
+
+#### Windows
+![greeting](Images/ex3_windows_Greeting.PNG)
+
+### Exit
+
+Finish connection with server
+
+#### Linux
+![exit](Images/ex3_linux_Exit.PNG)
+
+#### Windows
+![exit](Images/ex3_windows_Exit.PNG)
