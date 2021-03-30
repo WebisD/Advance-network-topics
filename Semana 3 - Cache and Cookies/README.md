@@ -7,7 +7,7 @@
 
 ## Exercise 1
 
-![ex1.1-6](Images\ex1,1-6.png)
+![ex1.1-6](Images/ex1,1-6.png)
 
 1. HTTP Version
 
@@ -50,9 +50,9 @@
         200 OK
         It returned an html page in the application layer because it wasthe first time accessing the site and it was not stored in browser1s cache
 
-     ![ex2.2](Images\ex2,2.png)
+     ![ex2.2](Images/ex2,2.png)
      
-![ex2.2](Images\ex2,3-4.png)
+![ex2.2](Images/ex2,3-4.png)
 
 3. Last modified
 
@@ -66,7 +66,7 @@
 
 ## Exercise 3
 
-![ex3-1](Images\ex3,1-3.png)
+![ex3-1](Images/ex3,1-3.png)
 
 1. GET Messages
 
@@ -84,4 +84,4 @@
 
         It was necessary 4 TCP segments to receive the HTML page response
 
-   ![ex3-4](Images\ex3,4.png)
+   ![ex3-4](Images/ex3,4.png)
