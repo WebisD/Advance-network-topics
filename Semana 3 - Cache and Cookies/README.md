@@ -72,11 +72,11 @@
 
 1. GET Messages
 
-        The browser sent 2 GET messages (Number 751 and 772)
+        The browser sent 1 GET message (Line 1398)
 
 2. Answer to the GETs
         
-        The answer is in line 783
+        The answer is in line 1446
 
 3. Code returned in anser
         
@@ -84,6 +84,6 @@
 
 4. TCP Protocols
 
-        It was necessary 4 TCP segments to receive the HTML page response
+        It was necessary 4 reassembled TCP segments to send the HTML page
 
    ![ex3-4](Images/ex3,4.png)
