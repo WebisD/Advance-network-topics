@@ -7,7 +7,7 @@
 
 ## Exercise 1
 
-![ex1.1-6](Images/ex1,1-6.png)
+![ex1.1-6](Images/ex1,1-5.png)
 
 1. HTTP Version
 
@@ -20,7 +20,7 @@
 
 3. Source and Destination's IP
 
-        Mine: 10.0.0.103
+        My machine: 10.0.0.103
         Server: 128.119.245.12
 
 4. Server Code
@@ -29,11 +29,13 @@
 
 5. Last time modified
 
-        Wed, 24 Mar 2021 05:59:01 GMT
+        Fri, 02 Apr 2021 05:59:01 GMT
 
 6. Bytes sent to browser
 
-        661 Bytes (5288 bits)
+        293 Bytes (2344 bits)
+
+     ![ex2.2](Images/ex1,6.png)
 
 7. Header not in package
 
@@ -48,7 +50,7 @@
 2. Return of the server
 
         200 OK
-        It returned an html page in the application layer because it wasthe first time accessing the site and it was not stored in browser1s cache
+        It returned an html page in the application layer because it wasthe first time accessing the site and it was not stored in browser's cache
 
      ![ex2.2](Images/ex2,2.png)
      
