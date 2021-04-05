@@ -80,7 +80,7 @@
 
 3. Code returned in anser
         
-        304 Not Modified
+        200 OK
 
 4. TCP Protocols
 
