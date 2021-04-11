@@ -12,11 +12,14 @@ class Handler(Thread):
             
             while True:
                 request = connectionSocket.recv(1024).decode()
-
         
                 if not request: 
                     break
                 else:
                    print(request.decode())
+                   break
+                   
             print("close connection...")
             connectionSocket.close()
+            
+
